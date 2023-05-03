@@ -24,8 +24,10 @@ var miJamoncito //<--- saborcitoRico vacia sin valor declarado.
 miJamoncito = 'saborcitoRico' //aqui seria declarada como: 'saborcitoRico'.
 */
 
+/*
 let saborcitoRico = 'saborcitoRico creada con let'
 saborcitoRico = 'otro valor a let'//<----- tanto 'var' como 'let' pueden ser reassignadas un nuevo valor.
+*/
 
 /*--------------------------------------------------------------------------------------------------------------
 la diferencia entre 'var' y 'let' esta en que var se posiciona la definicion de la variable al principio
@@ -33,7 +35,9 @@ del archivo mientras que LET es fija ,osea si LET esta en la linea 4 puede ser u
 en cambio VAR  inicializara la definicion al principio archivo dejando todo el archivo para ser re-declarada.
 ----------------------------------------------------------------------------------------------------------------
 */
+//console.log(constante)<----printeara reference error, porque la constante no a sido definida todavia.
+const constante = 'este valor es constante' //<---- Este valor no puede ser reasignado, a diferencia de VAR O LET.
+//const constante = 'esto operacion es invalida'
+console.log(constante)
 
-//const constante = 'este valor es constante'
-
-console.log(miJamoncito,saborcitoRico)
+//console.log(miJamoncito,saborcitoRico)

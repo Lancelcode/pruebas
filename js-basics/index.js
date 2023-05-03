@@ -4,7 +4,7 @@
 //EJEMPLO 1 VAR funciona correctamente
 
 var miJamoncito = 'saborcitoRico'
-miJamoncito = 'otro valor saborcito'//<----- aqui actualiza el valor , ahora printeara 'otro valor saborcito'
+miJamoncito = 'otro valor saborcito'//<----- aqui actualiza el valor , ahora printeara 'otro valor saborcito'//<----- tanto 'var' como 'let' pueden ser reassignadas un nuevo valor.
 //console.log(miJamoncito) //printeara la palabra 'saborcitoRico'
 
 
@@ -25,7 +25,14 @@ miJamoncito = 'saborcitoRico' //aqui seria declarada como: 'saborcitoRico'.
 */
 
 let saborcitoRico = 'saborcitoRico creada con let'
-saborcitoRico = 'otro valor a let'
+saborcitoRico = 'otro valor a let'//<----- tanto 'var' como 'let' pueden ser reassignadas un nuevo valor.
+
+/*--------------------------------------------------------------------------------------------------------------
+la diferencia entre 'var' y 'let' esta en que var se posiciona la definicion de la variable al principio
+del archivo mientras que LET es fija ,osea si LET esta en la linea 4 puede ser utilizada despues de esta linea 4,
+en cambio VAR  inicializara la definicion al principio archivo dejando todo el archivo para ser re-declarada.
+----------------------------------------------------------------------------------------------------------------
+*/
 
 //const constante = 'este valor es constante'
 

@@ -2,4 +2,3 @@ cat > testfile.txt = input text = Despues de iniciar este comando i golpear ente
 hiteamos enter y control d ,  para marcar el final del documento.
 
 cat < testfile.txt = output test = Despues de iniciar este comando este nos dara el output del elemnto selecionado y lo printeara en nuestra consola.
-
